@@ -131,7 +131,7 @@ footer {
   font-size: 10pt;
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
 
   .container {
     padding: 0 16px;
@@ -159,4 +159,12 @@ footer {
     padding: 0;
   }
 
+}
+
+@media print {
+  .page {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
 }
