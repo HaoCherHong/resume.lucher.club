@@ -59,7 +59,14 @@ body {
   max-width: 900px;
   min-height: 90vh;
   margin: 32px 0;
-  padding: 128px 64px;
+  padding: 128px 64px 64px 64px;
+}
+
+footer {
+  color: #666666;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 64px;
+  text-align: right;
 }
 
 .row {
@@ -131,7 +138,12 @@ body {
   }
 
   .page {
-    padding: 128px 32px;
+    padding: 128px 32px 64px 32px;
+  }
+
+  footer {
+    margin-top: 64px;
+    text-align: right;
   }
 
   .row {
