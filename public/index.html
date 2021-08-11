@@ -3,87 +3,181 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.9.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.9.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.9.1/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <title>Resume | Hao-Cher Hong</title>
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <div class="container">
+      <div class="page">
+        <div class="row">
+          <div class="col1">
+            <img src="imgs/profile.jpg" width="108" height="108" alt="Profile Picture">
+          </div>
+          <div class="col2">
+            <h1 class="title">Hao-Cher Hong</h1>
+            <p>rax333j@gmail.com</p>
+            <p>
+              <a href="http://portfolio.lucher.club/" target="_blank">
+                portfolio.lucher.club
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1"></div>
+          <div class="col2">
+            <ul class="list">
+              <li>Experienced in full-stack development</li>
+              <li>Experienced in game development, using Unity or HTML5 Canvas</li>
+              <li>Decent English reading and conversation abilities</li>
+              <li>Passionate in software development; capable of reading documents in English; learning new techniques aggressively</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <h2 class="section-title">Skills & Abilities</h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-title">Front-End Development</h3>
+              <p class="entry-body">using React framework</p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-title">Back-End Development</h3>
+              <p class="entry-body">using Node.js</p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-title">Unity Game Development</h3>
+              <p class="entry-body">with 5 years of freelancing experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <h2 class="section-title">Experience</h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-title">A10 Networks Front-End Development Intern</h3>
+              <div class="entry-date">Jul 2018 - Sep 2018</div>
+              <p class="entry-body">Internal use React framework maintenance</p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-title">Dcard Front-End Development Intern</h3>
+              <div class="entry-date">Jul 2017 - Sep 2017</div>
+              <p class="entry-body">Development of the new Dcard mobile web</p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-title">Freelance Software Developer</h3>
+              <div class="entry-date">2012 – Present</div>
+              <p class="entry-body">Freelance for Unity projects, websites, crawlers, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <h2 class="section-title">Honors & Awards</h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-award">
+                Attendees Choice Award - 8th Hackathon Taiwan
+              </h3>
+              <p class="entry-issuer">
+                issued by Hackathon Taiwan, Jun 2015.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                3rd Place - 43th National Skill Competition - Web Design
+              </h3>
+              <p class="entry-issuer">
+                issued by Ministry of Labor Taiwan, Sep 2013.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                6th Place - 2013 Engineering Skills Contest - Software Design
+              </h3>
+              <p class="entry-issuer">
+                issued by Department of Education, Taipei City Government, Nov 2013.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                1st Place - 2013 Kaohsiung City High School Programming Contest
+              </h3>
+              <p class="entry-issuer">
+                issued by Tsoying Senior High School, Oct 2013.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                1st Place - 2012 Kaohsiung City High School Programming Contest
+              </h3>
+              <p class="entry-issuer">
+                issued by Tsoying Senior High School, Nov 2012.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                Best Technique, Best Creativity Awards - 2018 Creative Game Design Hosted by IGS
+              </h3>
+              <p class="entry-issuer">
+                issued by IGS, Jan 2018.
+              </p>
+            </div>
+            <div class="section-entry">
+              <h3 class="entry-award">
+                9th Place - Bahamut ACG Creating Contest - Game Design
+              </h3>
+              <p class="entry-issuer">
+                issued by Bahamut, Apr 2012.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <h2 class="section-title">Education</h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-title">National Taipei University of Technology</h3>
+              <div class="entry-date">Bachelor of Computer Science and Information Engineering</div>
+              <p class="entry-body">2014 – 2019</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col1">
+            <h2 class="section-title">Certificates</h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-title">M101JS: MongoDB for Node.js Developers</h3>
+              <p class="entry-body">MongoDB University, 2016</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col1">
+            <h2 class="section-title"></h2>
+          </div>
+          <div class="col2">
+            <div class="section-entry">
+              <h3 class="entry-title"></h3>
+              <div class="entry-date"></div>
+              <p class="entry-body"></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
   </body>
 </html>
+
+
+
