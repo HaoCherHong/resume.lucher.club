@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "resume",
     "public": "public",
     "ignore": [
       "firebase.json",
