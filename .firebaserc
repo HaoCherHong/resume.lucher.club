@@ -1,5 +1,12 @@
 {
   "projects": {
     "default": "lucher-club"
+  },
+  "targets": {
+    "lucher-club": {
+      "hosting": {
+        "resume": ["lucher-club-resume"]
+      }
+    }
   }
 }
