@@ -4,4 +4,4 @@
 
 Software Engineering Resume of Hao-Cher Hong (洪晧哲)
 
-Static CSS/HTML hosted on Firebase
+Static CSS/HTML hosted on Firebase with GitHub workflows
